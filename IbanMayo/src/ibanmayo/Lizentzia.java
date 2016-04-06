@@ -39,6 +39,7 @@ private MySQLdb mySQLdb;
 		
 		
 				
+		
 		mySQLdb.lizentziaEguneratu(username, lizentzia);
 		System.out.println("     Updating users table in the database");
 		
