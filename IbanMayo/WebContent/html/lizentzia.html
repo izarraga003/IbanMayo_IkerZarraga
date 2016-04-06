@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lizentzia</title>
+		<link href="/IbanMayo/css/styleSheet.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<h1>IBAN MAYO TXIRRINDULARITZA ELKARTEA</h1>
+			<h3>Lizentzia hautatu:</h3>
+		</header>
+		<section>
+			<form method="POST" action="/IbanMayo/servlet/Lizentzia">
+				 Zure lizentzia aukeratu:
+					<br />
+					<input name="lizentzia" type="radio" value="elitea" />Elitea
+					<br />
+					<input name="lizentzia" type="radio" checked="checked" value="master" />Master
+					<br />
+					<input name="lizentzia" type="radio" value="afizionatua" checked="checked" />Afizionatua
+					<br />
+					<br />
+			<button>Hautatu</button>
+			</form>
+		</section>
+		<footer>Emerando kalea 69, Igorre</footer> 
+	</body>
+</html>
